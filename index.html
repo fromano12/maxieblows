@@ -1,33 +1,31 @@
-<!DOCTYPE html>
+<!Doctype>
 <html>
 <head>
-<style>
-h1 {text-align: center;}
-div {text-align: left;}
-p {text-align: center;}
-  
-img {
-  position: absolute;
-  top: 25px;
-  left: 25px;
-}
-.imgA1 {
-  z-index: 1;
-}
-.imgB1 {
-  z-index: 3;
-}
-<img class="imgA1" src="candle_off.png">
-<img class="imgB1" src="candle_flame_png.png">
+  <style>
+    .fishes
+    {
+      position:absolute;
+      top: 10px;
+      left: 10px;
+      z-index: 1;
+    }
+    .fish
+    {
+      position:absolute;
+      top: 25px;
+      left: 25px;
+      z-index: 2;
+    }
   </style>
- <center>
+</head>
+<body>
+  <img src="candle_off.png" class="fishes" >
+  <img src="candle_flame_png.png" class="fish">
+</body>
+
 <button style = 
   "background-color: white;
   font-size: 32px;">
- 
  Blow Me
 </button>
-</center>
-<p>
-
 </html>
